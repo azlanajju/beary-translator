@@ -1,3 +1,4 @@
+alert(' Development in progress');
 const customLanguageDictionaries = {
     english: {
       "how": "engana",
