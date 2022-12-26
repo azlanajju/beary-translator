@@ -1,0 +1,126 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2em;
+    text-transform: uppercase;
+  }
+  
+  main {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    border-radius: 5px;
+  }
+  
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+  }
+  
+  .input-section,
+  .output-section {
+    flex: 1;
+    margin: 0 10px;
+  }
+  
+  .input-language,
+  .input-text,
+  .output-language,
+  .output-text {
+    margin: 10px 0;
+  }
+  
+  .button-section {
+    margin: 20px 0;
+    text-align: center;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  select,
+  textarea {
+    width: 100%;
+    font-size: 1rem;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: white;
+    color: #333;
+    transition: box-shadow 0.3s;
+  }
+  
+  select:focus,
+  textarea:focus {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    outline: none;
+  }
+  
+  input[type="submit"] {
+    background-color: #333;
+    color: white;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #555;
+  }
+  
+  @media (max-width: 600px) {
+    form {
+      flex-direction: column;
+    }
+  
+    .input-section,
+    .output-section {
+      flex: none;
+      width: 100%;
+    }
+  }
+  
+  /* Add your own custom styles below this line */
+  
+  /* Change the color of the active language option in the dropdown menu */
+  select[name="input-language"],
+  select[name="output-language"] {
+    color: #333;
+  }
+  
+  select[name="input-language"] option[value="english"]:checked,
+  select[name="output-language"] option[value="english"]:checked {
+    color: #0077c9;
+  }
+  
+  select[name="input-language"],
+  select[name="output-language"] {
+    color: #333;
+  }
+  
+  select[name="input-language"] option[value="french"]:checked,
+  select[name="output-language"] option[value="french"]:checked {
+    color: #0077c9;
+  }
