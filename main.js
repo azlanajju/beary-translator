@@ -23,7 +23,10 @@ const customLanguageDictionaries = {
       const words = text.split(" ");
       for (const word of words) {
       
+        const wordu = word.replace(/ /g, "_"); 
         const translation = dictionaries[word.toLowerCase()];
+        translatedText
+        
         if (translation) {
           
           translatedText += `${translation} `;
