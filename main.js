@@ -1,6 +1,8 @@
-alert(' Development in progress');
+  
+//  alert(' Development in progress');
 const customLanguageDictionaries = {
     english: {
+   
       "what":"endre",
       "how": "engana",
       "when": "eppa",
@@ -11,38 +13,41 @@ const customLanguageDictionaries = {
       "you": "nin",
       "my": "nande",
       "me":"nan",
-      
+     //sentences:
+        "howareyou": "nin engana ulla",
+        "whatisyourname": "ninde per endre",
+        "iamnotwell":"nakk husharilla",
     },
 
   };
-  function translate(text, inputLanguage, outputLanguage) {
-    let translatedText = "";
-    if (inputLanguage === "custom-language") {
-      const dictionaries = customLanguageDictionaries[outputLanguage];
+ 
+ 
+ function translate(text, inputLanguage, outputLanguage) {
+  let translatedText = "";
+  if (inputLanguage === "custom-language") {
+    const dictionaries = customLanguageDictionaries[outputLanguage];
+
+    
+    text = text.replace(/ /g, "");
+
+    const words = text.split(" ");
+    for (const word of words) {
       
-      const words = text.split(" ");
-      for (const word of words) {
-      
-        const wordu = word.replace(/ /g, "_"); 
-        const translation = dictionaries[word.toLowerCase()];
-        translatedText
-        
-        if (translation) {
-          
-          translatedText += `${translation} `;
-        } else {
-        
-          translatedText += `${word} `;
-        }
+      const translation = dictionaries[word.toLowerCase()];
+      if (translation) {
+        translatedText += `${translation} `;
+      } else {
+        translatedText += `${word} `;
       }
-      translatedText = translatedText.trim();
-    } else {
-      
-      translatedText = text;
     }
-    return translatedText;
+    translatedText = translatedText.trim();
+  } else {
+    translatedText = text;
   }
-  
+  return translatedText;
+}
+
+
   
   document.querySelector("form").addEventListener("submit", function(event) {
   event.preventDefault();
@@ -53,6 +58,4 @@ const customLanguageDictionaries = {
   outputText = translate(inputText, inputLanguage, outputLanguage);
   this["output-text"].value = outputText;
   });
-  
-  
   
