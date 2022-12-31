@@ -8,9 +8,14 @@ const customLanguageDictionaries = {
        "up":"mel","down":"keel","right":"bala","left":"yeda","middle":"nadu","see":"nok","she":"awl","he":"awn","love":"pirsa","like":"ista", "animal":"prani",
        "question":"prashna'","answer":"utthara","box":"petti","go":"po","come":"ba","cold":"sheetha","fever":"pani","cough":"chame","play":"kali","sorry":"maaf","":"",
       "they":"anga",  "which":"ed",  "them":"anga",  "some":"korya",  "home":"aga","apple":"yeppulu","man":"manisa","take":"yed","outside":"parth","inside":"ulga",
-      "want":"benu","sad":"bejar","happy":"kosi","more":"yara","thing":"samana","azlan":"ajju", "beatiful":"chanda",
+      "want":"benu","sad":"bejar","happy":"kosi","more":"yara","thing":"samana","azlan":"ajju", "beatiful":"chanda","fragrance":"kammane","":"","":"",
+      "smell":"mana","good":"nalle","woman":"penn","boy":"an","girl":"penn","men":"an","life":"jeema","worst":"bedak","there":"awda","here":"ooda",
+      "after":"pinne","now":"ippa","call":"bili","much":"chomme","meaning":"artha","":"","":"","":"","":"",
       "":"",
-      "":"",
+      //animals:
+      "goat":"aad","cow":"pai","horse":"kudre","hen":"koli","cat":"poocha","lion":"simha","rabit":"mola","monkey":"manga","tiger":"pili","camel":"wanta' ","crocodile":"modhala",
+      "fish":"meen","parror":"gili","bear":"karadi","donkey":"katthe' ","dog":"nayi","deer":"jinke","pig":"panni","cheetah":"chirathe","elephant":"aane",
+      "snake":"ucchi","cobra":"pambu","sheep":"kuri","duck":"bathukoli","tortoise":"aame","buffalo":"yard","":"","":"",
       
      //sentences:
         "howareyou": "nin engana ulla","whatisyourname": "ninde per endre","iamnotwell":"nakk husharilla","whatshouldisay":"nan endre chellon","doyouknowme":"nikk nande gurtha unda",
