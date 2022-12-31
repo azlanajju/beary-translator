@@ -42,7 +42,7 @@ const customLanguageDictionaries = {
     const dictionaries = customLanguageDictionaries[outputLanguage];
 
     
-   // text = text.replace(/ /g, "");
+    text = text.replace(/ /g, "");
 
     const words = text.split(" ");
     for (const word of words) {
