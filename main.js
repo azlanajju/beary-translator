@@ -22,7 +22,7 @@ const customLanguageDictionaries = {
         "mynameis":"nande per","theydidn'tsayanything": "anga endum chenthla","hedidn'tsayanything": "awn endum chenthla","shedidn'tsayanything": "awl endum chenthla","iloveyou": "nan ninde pirsakra",
         "ilikeyou":"nakk nin ista","willyoubemyfriend":"nin nande changayi awre", "ihaveafewquestions":"nakk korea questions und", 
       "ilikeher":"nakk awl ista","iloveher":"nan awlle pirsakre","ilikehim":"nakk awn ista","ilovehim":"nan awnde pirsa akre","canisaysomething":"na endre ayeng chellata",
-      "whatcanidoforyou":"nan nikk endre akon","iamfine":"nan husharulla","":"",
+      "whatcanidoforyou":"nan nikk endre akon","iamfine":"nan husharulla","whatareyoudoing":"nin endre akyo ulla",
       "":"","":"","":"","":"","":"","":"","":"",
       "":"","":"","":"","":"","":"","":"","":"",
     },
