@@ -10,7 +10,7 @@ const customLanguageDictionaries = {
       "they":"anga",  "which":"ed",  "them":"anga",  "some":"korya",  "home":"aga","apple":"yeppulu","man":"manisa","take":"yed","outside":"parth","inside":"ulga",
       "want":"benu","sad":"bejar","happy":"kosi","more":"yara","thing":"samana","azlan":"ajju", "beatiful":"chanda","fragrance":"kammane","":"","":"",
       "smell":"mana","good":"nalle","woman":"penn","boy":"an","girl":"penn","men":"an","life":"jeema","worst":"bedak","there":"awda","here":"ooda",
-      "after":"pinne","now":"ippa","call":"bili","much":"chomme","meaning":"artha","":"","":"","":"","":"",
+      "after":"pinne","now":"ippa","call":"bili","much":"chomme","meaning":"artha","selfish":"meen bikkrawnu","":"","":"","":"",
       "":"",
       //animals:
       "goat":"aad","cow":"pai","horse":"kudre","hen":"koli","cat":"poocha","lion":"simha","rabit":"mola","monkey":"manga","tiger":"pili","camel":"wanta' ","crocodile":"modhala",
